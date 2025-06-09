@@ -5,3 +5,9 @@ Dive into the future of decentralized finance with our cutting-edge automation b
 Supply Assets: Effortlessly contribute your digital assets to the ecosystem, maximizing your potential returns.
 Borrow Tokens: Access the funds you need with ease, leveraging the power of decentralized lending.
 Claim Faucet Tokens: Never miss out on valuable resources—our bot ensures you claim every faucet token available.
+
+## Prerequisites
+Node.js (v18 or higher)
+npm or yarn
+
+## Installation
