@@ -27,7 +27,9 @@ nano .env
 ```
 format on nano .env 
 PRIVATE_KEY_1= fill your pvkey
+
 PRIVATE_KEY_2= fill your pvkey
+
 PRIVATE_KEY_3= fill your pvkey
 
 save :  ctrl x y enter
