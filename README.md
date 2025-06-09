@@ -8,6 +8,7 @@ Claim Faucet Tokens: Never miss out on valuable resources—our bot ensures you 
 
 ## Prerequisites
 Node.js (v18 or higher)
+
 npm or yarn
 
 ## Installation
