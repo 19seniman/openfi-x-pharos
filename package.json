@@ -1,7 +1,7 @@
 {
-  "name": "openfi-auto-bot",
+  "name": "script auto bridging on Openfi",
   "version": "1.0.0",
-  "description": "Automation bot for interacting with OpenFi testnet protocol",
+  "description": "Automation script for interacting with OpenFi testnet ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikitoshi/OpenFi-Auto-Bot.git"
+    "url": "git+ https://github.com/19seniman/openfi-x-pharos.git"
   },
   "bugs": {
-    "url": "https://github.com/vikitoshi/OpenFi-Auto-Bot/issues"
+    "url": "https://github.com/19seniman/openfi-x-pharos.git/issues"
   },
-  "homepage": "https://github.com/vikitoshi/OpenFi-Auto-Bot#readme"
+  "homepage": "https://github.com/19seniman/openfi-x-pharos.git#readme"
 }
