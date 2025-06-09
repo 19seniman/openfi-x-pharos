@@ -13,3 +13,26 @@ npm or yarn
 
 ## Installation
 
+```
+git clone https://github.com/19seniman/openfi-x-pharos.git
+```
+```
+cd openfi-x-pharos
+```
+```
+npm install
+```
+```
+nano .env
+```
+format on nano .env 
+PRIVATE_KEY_1= fill your pvkey
+PRIVATE_KEY_2= fill your pvkey
+PRIVATE_KEY_3= fill your pvkey
+
+save :  ctrl x y enter
+
+~ run script
+```
+node lim.js
+```
