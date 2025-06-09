@@ -28,7 +28,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`---------------------------------------------`);
-    console.log(`  19Seniman From Insiders - Auto bridging on openfi `);
+    console.log(`  19Seniman From Insider - Auto bridging on openfi `);
     console.log(`---------------------------------------------${colors.reset}`);
     console.log();
   }
@@ -173,7 +173,7 @@ class PharosBot {
   }
 
   async showMenu() {
-    console.log(`\n${colors.cyan}${colors.bold}--- OPENFI TESTNET BOT MENU ---${colors.reset}`);
+    console.log(`\n${colors.cyan}${colors.bold}--- OPENFI TESTNET MENU ---${colors.reset}`);
     console.log(`${colors.white}1. Supply PHRS${colors.reset}`);
     console.log(`${colors.white}2. Mint Faucet Tokens${colors.reset}`);
     console.log(`${colors.white}3. Supply ERC20 Tokens${colors.reset}`);
