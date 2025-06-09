@@ -7,9 +7,9 @@ Borrow Tokens: Access the funds you need with ease, leveraging the power of dece
 Claim Faucet Tokens: Never miss out on valuable resources—our bot ensures you claim every faucet token available.
 
 ## Prerequisites
-Node.js (v18 or higher)
+~ Node.js (v18 or higher)
 
-npm or yarn
+~ npm or yarn
 
 ## Installation
 
