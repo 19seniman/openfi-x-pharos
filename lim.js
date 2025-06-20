@@ -24,13 +24,12 @@ const logger = {
   success: (msg) => console.log(`${colors.green}[✅] ${msg}${colors.reset}`),
   loading: (msg) => console.log(`${colors.cyan}[⟳] ${msg}${colors.reset}`),
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
-  countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
+  userInfo: (msg) => console.log(`${colors.white}[✓] ${msg}${colors.reset}`),
   banner: () => {
-    const { cyan, magenta, reset } = colors;
-    console.log(magenta + '=============================================' + reset);
-    console.log(cyan + '  🍉🍉PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉 ' + reset);
-    console.log(cyan + '       19Senniman from Insider' + reset);
-    console.log(magenta + '=============================================' + reset);
+    console.log(`${colors.cyan}${colors.bold}`);
+    console.log(`---------------------------------------------`);
+    console.log(`  19Seniman From Insider  `);
+    console.log(`---------------------------------------------${colors.reset}`);
     console.log();
   }
 };
@@ -174,7 +173,7 @@ class PharosBot {
   }
 
   async showMenu() {
-    console.log(`\n${colors.cyan}${colors.bold}--- OPENFI TESTNET MENU ---${colors.reset}`);
+    console.log(`\n${colors.cyan}${colors.bold}--- OPENFI TESTNET BOT MENU ---${colors.reset}`);
     console.log(`${colors.white}1. Supply PHRS${colors.reset}`);
     console.log(`${colors.white}2. Mint Faucet Tokens${colors.reset}`);
     console.log(`${colors.white}3. Supply ERC20 Tokens${colors.reset}`);
